@@ -1,0 +1,36 @@
+Create with Code
+
+Mobile
+- IOS
+- Android
+
+Platforms
+- Windows
+- Mac
+
+Consoles
+- Playstation
+- Xbox
+
+VR/AR Devices
+- Occulus
+- Google Cardboard
+
+Unity in C#
+
+Using Unity and C#
+
+5 Prototypes
+Personal Project
+- Design
+- Plan 
+- Build
+
+Unity Certified User Programmer Exam
+
+Skills
+- Game Development
+- Animation
+- Storytelling
+- Architecture
+- Engineering
