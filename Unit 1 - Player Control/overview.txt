@@ -1,0 +1,8 @@
+New Project
+Unity Interface
+Import Assets
+3d Navigation
+
+Navigatting the scene view. 
+
+Scene view is the movie set.
