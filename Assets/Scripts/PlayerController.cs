@@ -10,6 +10,11 @@ public class PlayerController : MonoBehaviour
     private float horizontalInput;
     private float forwardInput;
 
+    public Camera mainCamera;
+    public Camera hoodCamera;
+    public KeyCode switchKey;
+    public string inputID;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +25,19 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // This is where we get player input
-        horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal" + inputID);
+        forwardInput = Input.GetAxis("Vertical" + inputID);
 
         // Move the vehicle forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
         // transform.Translate(Vector3.right * Time.deltaTime * turnSpeed * horizontalInput);
         // We turn the vehicle
         transform.Rotate(Vector3.up, turnSpeed * horizontalInput * Time.deltaTime);
+        if(Input.GetKeyDown(switchKey))
+        {
+            mainCamera.enabled = !mainCamera.enabled;
+            hoodCamera.enabled = !hoodCamera.enabled;
+        }
     }
     
 }
