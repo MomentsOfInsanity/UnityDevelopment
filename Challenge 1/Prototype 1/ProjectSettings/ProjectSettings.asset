@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 6e448ec993090ae4281639b88d396d92
+  productGUID: e7890c2bffe76904f97c1f903dd211d6
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Challenge 1
+  productName: Prototype 1
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -673,14 +673,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Challenge 1
+  metroPackageName: Prototype 1
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Challenge 1
+  metroApplicationDescription: Prototype 1
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -749,10 +749,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: f3c57ff2-1d3a-4451-8eda-b98bbd2e8810
+  cloudProjectId: 22cc93b4-3e38-4c03-b6e0-06de4b07bb1b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Challenge 1
+  projectName: Prototype 1 2023-12-01_09-16-33
   organizationId: unity_05bc51c349df89641f4a
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
